@@ -1,0 +1,1107 @@
+[31Jul2025 00:42:11.649] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[31Jul2025 00:42:11.654] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[31Jul2025 00:42:12.952] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[31Jul2025 00:42:13.029] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/second-repo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[31Jul2025 00:42:13.423] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/second-repo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[31Jul2025 00:42:13.425] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/second-repo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[31Jul2025 00:42:13.427] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/second-repo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[31Jul2025 00:42:13.428] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/second-repo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[31Jul2025 00:42:13.774] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
+[31Jul2025 00:42:16.039] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31Jul2025 00:42:16.101] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[31Jul2025 00:42:16.104] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
+[31Jul2025 00:42:16.106] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
+[31Jul2025 00:42:16.118] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[31Jul2025 00:42:16.162] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Jul2025 00:42:16.164] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Jul2025 00:42:17.199] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[31Jul2025 00:42:23.830] [modloading-worker-0/INFO] [guardribbits/]: Initializing the Ribbit Guardians!
+[31Jul2025 00:42:24.206] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Config file '/workspaces/second-repo/servidor_minecraft/config/config/armoroftheages.json' does not exist. Creating it with default values.
+[31Jul2025 00:42:24.207] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Serializing class org.dawnoftime.armoroftheages.config.AOTAConfig to '/workspaces/second-repo/servidor_minecraft/config/config/armoroftheages.json'
+[31Jul2025 00:42:24.556] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[31Jul2025 00:42:24.578] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Config file '/workspaces/second-repo/servidor_minecraft/config/yacl.json5' does not exist. Creating it with default values.
+[31Jul2025 00:42:24.586] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Serializing class dev.isxander.yacl3.platform.YACLConfig to '/workspaces/second-repo/servidor_minecraft/config/yacl.json5'
+[31Jul2025 00:42:24.647] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered mobs_of_mythology config for auto-sync function
+[31Jul2025 00:42:24.719] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[31Jul2025 00:42:24.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/jeresources.toml is not correct. Correcting
+[31Jul2025 00:42:24.766] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerColumn was corrected from null to its default, 4. 
+[31Jul2025 00:42:24.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:24.773] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diyData was corrected from null to its default, true. 
+[31Jul2025 00:42:24.774] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showDevData was corrected from null to its default, false. 
+[31Jul2025 00:42:24.774] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantsBlacklist was corrected from null to its default, [flimflam, soulBound]. 
+[31Jul2025 00:42:24.775] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hiddenTabs was corrected from null to its default, []. 
+[31Jul2025 00:42:24.776] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimensionsBlacklist was corrected from null to its default, [-11]. 
+[31Jul2025 00:42:24.780] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disableLootManagerReloading was corrected from null to its default, false. 
+[31Jul2025 00:42:24.958] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[31Jul2025 00:42:24.958] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[31Jul2025 00:42:26.118] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.AnimatedMonster.Mobs.Shulker_MimicEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.Old.OldShulkerMimic
+[31Jul2025 00:42:26.119] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.AnimatedMonster.IAnimatedBoss.CloudGolem.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
+[31Jul2025 00:42:26.119] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.AnimatedMonster.IAnimatedBoss.CloudGolem.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
+[31Jul2025 00:42:26.119] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.AnimatedMonster.IAnimatedBoss.CloudGolem.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
+[31Jul2025 00:42:26.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/farmersdelight-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.enableVanillaCropCrates was corrected from null to its default, true. 
+[31Jul2025 00:42:26.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.farmersBuyFDCrops was corrected from null to its default, true. 
+[31Jul2025 00:42:26.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.wanderingTraderSellsFDItems was corrected from null to its default, true. 
+[31Jul2025 00:42:26.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.richSoilBoostChance was corrected from null to its default, 0.2. 
+[31Jul2025 00:42:26.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.cuttingBoardFortuneBonus was corrected from null to its default, 0.1. 
+[31Jul2025 00:42:26.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.enableRopeReeling was corrected from null to its default, true. 
+[31Jul2025 00:42:26.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.canvasSignDarkBackgroundList was corrected from null to its default, [gray, purple, blue, brown, green, red, black]. 
+[31Jul2025 00:42:26.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming.defaultTomatoVineRope was corrected from null to its default, farmersdelight:rope. 
+[31Jul2025 00:42:26.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming.enableTomatoVineClimbingTaggedRopes was corrected from null to its default, true. 
+[31Jul2025 00:42:26.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipe_book was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipe_book.enableRecipeBookCookingPot was corrected from null to its default, true. 
+[31Jul2025 00:42:26.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.vanillaSoupExtraEffects was corrected from null to its default, true. 
+[31Jul2025 00:42:26.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.rabbitStewJumpBoost was corrected from null to its default, true. 
+[31Jul2025 00:42:26.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.dispenserUsesToolsOnCuttingBoard was corrected from null to its default, true. 
+[31Jul2025 00:42:26.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size.enableStackableSoupItems was corrected from null to its default, true. 
+[31Jul2025 00:42:26.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size.soupItemList was corrected from null to its default, [minecraft:mushroom_stew, minecraft:beetroot_soup, minecraft:rabbit_stew]. 
+[31Jul2025 00:42:26.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.generateFDChestLoot was corrected from null to its default, true. 
+[31Jul2025 00:42:26.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.genVillageCompostHeaps was corrected from null to its default, true. 
+[31Jul2025 00:42:26.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.genFDCropsOnVillageFarms was corrected from null to its default, true. 
+[31Jul2025 00:42:26.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_cabbages was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_cabbages.chance was corrected from null to its default, 30. 
+[31Jul2025 00:42:26.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_beetroots was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_beetroots.chance was corrected from null to its default, 30. 
+[31Jul2025 00:42:26.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_potatoes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_potatoes.chance was corrected from null to its default, 100. 
+[31Jul2025 00:42:26.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_carrots was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_carrots.chance was corrected from null to its default, 120. 
+[31Jul2025 00:42:26.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_onions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_onions.chance was corrected from null to its default, 120. 
+[31Jul2025 00:42:26.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_tomatoes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_tomatoes.chance was corrected from null to its default, 100. 
+[31Jul2025 00:42:26.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_rice was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_rice.chance was corrected from null to its default, 20. 
+[31Jul2025 00:42:26.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies.genBrownMushroomColony was corrected from null to its default, true. 
+[31Jul2025 00:42:26.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies.chance was corrected from null to its default, 15. 
+[31Jul2025 00:42:26.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies.genRedMushroomColony was corrected from null to its default, true. 
+[31Jul2025 00:42:26.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies.chance was corrected from null to its default, 15. 
+[31Jul2025 00:42:26.173] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.174] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.174] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enabledItems was corrected from null to its default, []. 
+[31Jul2025 00:42:26.176] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/veggiesdelight-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villager Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villager Settings.enableVillagerTrades was corrected from null to its default, true. 
+[31Jul2025 00:42:26.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villager Settings.enableWanderingTrades was corrected from null to its default, true. 
+[31Jul2025 00:42:26.178] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Village Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.178] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Village Settings.generateVillageStructures was corrected from null to its default, true. 
+[31Jul2025 00:42:26.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/ribbits-forge-1_20_1.toml is not correct. Correcting
+[31Jul2025 00:42:26.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Ribbits was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Ribbits.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Ribbits.General.Show Pride Flags All Year was corrected from null to its default, false. 
+[31Jul2025 00:42:26.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/waystones-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.inventoryButton was corrected from null to its default, . 
+[31Jul2025 00:42:26.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.warpButtonX was corrected from null to its default, 58. 
+[31Jul2025 00:42:26.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.warpButtonY was corrected from null to its default, 60. 
+[31Jul2025 00:42:26.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeWarpButtonX was corrected from null to its default, 88. 
+[31Jul2025 00:42:26.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeWarpButtonY was corrected from null to its default, 33. 
+[31Jul2025 00:42:26.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.globalWaystoneCooldownMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpStoneCooldown was corrected from null to its default, 30. 
+[31Jul2025 00:42:26.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpStoneUseTime was corrected from null to its default, 32. 
+[31Jul2025 00:42:26.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpPlateUseTime was corrected from null to its default, 20. 
+[31Jul2025 00:42:26.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.scrollUseTime was corrected from null to its default, 32. 
+[31Jul2025 00:42:26.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.inventoryButtonCooldown was corrected from null to its default, 300. 
+[31Jul2025 00:42:26.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.worldGenStyle was corrected from null to its default, BIOME. 
+[31Jul2025 00:42:26.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.frequency was corrected from null to its default, 25. 
+[31Jul2025 00:42:26.192] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.dimensionAllowList was corrected from null to its default, [minecraft:overworld, minecraft:the_nether, minecraft:the_end]. 
+[31Jul2025 00:42:26.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.dimensionDenyList was corrected from null to its default, []. 
+[31Jul2025 00:42:26.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.nameGenerationMode was corrected from null to its default, PRESET_FIRST. 
+[31Jul2025 00:42:26.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.customWaystoneNames was corrected from null to its default, []. 
+[31Jul2025 00:42:26.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.spawnInVillages was corrected from null to its default, true. 
+[31Jul2025 00:42:26.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.forceSpawnInVillages was corrected from null to its default, false. 
+[31Jul2025 00:42:26.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.restrictToCreative was corrected from null to its default, false. 
+[31Jul2025 00:42:26.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.restrictRenameToOwner was corrected from null to its default, false. 
+[31Jul2025 00:42:26.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.generatedWaystonesUnbreakable was corrected from null to its default, false. 
+[31Jul2025 00:42:26.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.transportLeashed was corrected from null to its default, true. 
+[31Jul2025 00:42:26.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.transportLeashedDimensional was corrected from null to its default, true. 
+[31Jul2025 00:42:26.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.leashedDenyList was corrected from null to its default, [minecraft:wither]. 
+[31Jul2025 00:42:26.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarp was corrected from null to its default, ALLOW. 
+[31Jul2025 00:42:26.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarpAllowList was corrected from null to its default, []. 
+[31Jul2025 00:42:26.196] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarpDenyList was corrected from null to its default, []. 
+[31Jul2025 00:42:26.196] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.allowWaystoneToWaystoneTeleport was corrected from null to its default, true. 
+[31Jul2025 00:42:26.196] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.globalWaystoneSetupRequiresCreativeMode was corrected from null to its default, true. 
+[31Jul2025 00:42:26.197] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.197] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableTextGlow was corrected from null to its default, false. 
+[31Jul2025 00:42:26.197] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.inverseXpCost was corrected from null to its default, false. 
+[31Jul2025 00:42:26.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.blocksPerXpLevel was corrected from null to its default, 1000. 
+[31Jul2025 00:42:26.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.minimumBaseXpCost was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.maximumBaseXpCost was corrected from null to its default, 3.0. 
+[31Jul2025 00:42:26.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.xpCostPerLeashed was corrected from null to its default, 0. 
+[31Jul2025 00:42:26.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.dimensionalWarpXpCost was corrected from null to its default, 3. 
+[31Jul2025 00:42:26.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.globalWaystoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.warpStoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.waystoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.sharestoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.portstoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.warpPlateXpCostMultiplier was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.inventoryButtonXpCostMultiplier was corrected from null to its default, 0.0. 
+[31Jul2025 00:42:26.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.201] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.displayWaystonesOnJourneyMap was corrected from null to its default, true. 
+[31Jul2025 00:42:26.201] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.preferJourneyMapIntegration was corrected from null to its default, true. 
+[31Jul2025 00:42:26.208] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/legendary_monsters-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.208] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.208] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.General Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.General Settings.Allow Custom Boss Bars was corrected from null to its default, true. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.General Settings.Allow Boss Music was corrected from null to its default, true. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.General Settings.Boss Music Volume Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.General Settings.Allow Falling Cloud Particles was corrected from null to its default, true. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Chorusling Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Chorusling Settings.Chorusling Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Chorusling Settings.Chorusling Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Endersent Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Endersent Settings.Endersent Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Endersent Settings.Endersent Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Spiky Worm Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Spiky Worm Settings.Spiky Worm Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Spiky Worm Settings.Spiky Worm Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ambusher Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ambusher Settings.Ambusher Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ambusher Settings.Ambusher Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ambusher Settings.Allow Ambusher Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Stratling Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Stratling Settings.Stratling Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Stratling Settings.Stratling Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ancient Guardian Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ancient Guardian Settings.Ancient Guardian Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ancient Guardian Settings.Ancient Guardian Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ancient Guardian Settings.Allow Ancient Guardian Stun Ability was corrected from null to its default, true. 
+[31Jul2025 00:42:26.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Ancient Guardian Settings.Allow Ancient Guardian Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Knight Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Knight Settings.Haunted Knight Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Knight Settings.Haunted Knight Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.213] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Knight Settings.Allow Haunted Knight Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.213] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Guard Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.213] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Guard Settings.Haunted Guard Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.213] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Guard Settings.Haunted Guard Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.213] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Haunted Guard Settings.Allow Haunted Guard Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.213] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Posessed Paladin Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Posessed Paladin Settings.Posessed Paladin Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Posessed Paladin Settings.Posessed Paladin Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Posessed Paladin Settings.Allow Posessed Paladin Stun Ability was corrected from null to its default, true. 
+[31Jul2025 00:42:26.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Posessed Paladin Settings.Allow Posessed Paladin Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Overgrown Colosuss Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Overgrown Colosuss Settings.Overgrown Colosuss Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.215] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Overgrown Colosuss Settings.Overgrown Colosuss Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.215] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Overgrown Colosuss Settings.Allow Overgrown Colosuss Stun Ability was corrected from null to its default, true. 
+[31Jul2025 00:42:26.215] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Overgrown Colosuss Settings.Allow Overgrown Colosuss Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.215] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Mossy Golem Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.216] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Mossy Golem Settings.Mossy Golem Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.217] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Mossy Golem Settings.Mossy Golem Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.217] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.217] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings.Cloud Golem Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.217] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings.Cloud Golem Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.217] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings.Allow Cloud Golem Projectile Damage was corrected from null to its default, false. 
+[31Jul2025 00:42:26.217] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings.Allow Cloud Golem Loses Consciousness was corrected from null to its default, true. 
+[31Jul2025 00:42:26.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings.Allow Cloud Golem Charge once More was corrected from null to its default, true. 
+[31Jul2025 00:42:26.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings.Allow Cloud Golem Invulnerability Time was corrected from null to its default, true. 
+[31Jul2025 00:42:26.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem Settings.Cloud Golem Damage Cap was corrected from null to its default, 18.0. 
+[31Jul2025 00:42:26.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem's Falling Cloud Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Cloud Golem's Falling Cloud Settings.Falling Cloud Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Frostbitten Golem Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Frostbitten Golem Settings.Frostbitten Golem Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Frostbitten Golem Settings.Frostbitten Golem Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Frostbitten Golem Settings.Allow Frostbitten Golem Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Dune Sentinel Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Dune Sentinel Settings.Dune Sentinel Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Dune Sentinel Settings.Dune Sentinel Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Dune Sentinel Settings.Allow Dune Sentinel Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Dune Sentinel Settings.Bomber Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Dune Sentinel Settings.Bomber Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Skeletosaurus Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Skeletosaurus Settings.Skeletosaurus Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.221] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Skeletosaurus Settings.Skeletosaurus Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.221] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Lava Eater Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.221] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Lava Eater Settings.Lava Eater Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Lava Eater Settings.Lava Eater Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Lava Eater Settings.Allow Lava Eater Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Warped Fungussus Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Warped Fungussus Settings.Warped Fungussus Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Warped Fungussus Settings.Warped Fungussus Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.226] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Withered Abomination Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.226] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Withered Abomination Settings.Withered Abomination Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.226] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Withered Abomination Settings.Withered Abomination Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.227] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Withered Abomination Settings.Allow Withered Abomination Stun Ability was corrected from null to its default, false. 
+[31Jul2025 00:42:26.227] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Shulker Mimic Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.227] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Shulker Mimic Settings.Shulker Mimic Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.227] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Shulker Mimic Settings.Shulker Mimic Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.227] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Shulker Mimic Settings.Allow Shulker Mimic Projectile Immunity was corrected from null to its default, true. 
+[31Jul2025 00:42:26.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Tamable Knight Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Tamable Knight Settings.Knight Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Tamable Knight Settings.Knight Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Tamable Guard Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Tamable Guard Settings.Guard Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Tamable Guard Settings.Guard Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Skeloraptor Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Skeloraptor Settings.Skeloraptor Damage Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.230] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Settings.Skeloraptor Settings.Skeloraptor Health Multiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:26.236] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/sophisticatedbackpacks-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.237] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.237] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
+[31Jul2025 00:42:26.240] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/balm-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.241] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleEnum was corrected from null to its default, Hello. 
+[31Jul2025 00:42:26.241] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleInt was corrected from null to its default, 42. 
+[31Jul2025 00:42:26.242] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleIntList was corrected from null to its default, [12, 24]. 
+[31Jul2025 00:42:26.243] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleBoolean was corrected from null to its default, true. 
+[31Jul2025 00:42:26.245] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleString was corrected from null to its default, Hello World. 
+[31Jul2025 00:42:26.246] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleStringList was corrected from null to its default, [Hello, World]. 
+[31Jul2025 00:42:26.247] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleEnumList was corrected from null to its default, [Hello, World]. 
+[31Jul2025 00:42:26.248] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleResourceLocationSet was corrected from null to its default, [minecraft:diamond, minecraft:dirt]. 
+[31Jul2025 00:42:26.249] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:26.249] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory.innerField was corrected from null to its default, I am inside. 
+[31Jul2025 00:42:26.250] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory.exampleFloat was corrected from null to its default, 42.84000015258789. 
+[31Jul2025 00:42:26.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/second-repo/servidor_minecraft/config/jeresources-common.toml is not correct. Correcting
+[31Jul2025 00:42:26.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerColumn was corrected from null to its default, 4. 
+[31Jul2025 00:42:26.253] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:26.255] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diyData was corrected from null to its default, true. 
+[31Jul2025 00:42:26.255] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showDevData was corrected from null to its default, false. 
+[31Jul2025 00:42:26.256] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantsBlacklist was corrected from null to its default, [flimflam, soulBound]. 
+[31Jul2025 00:42:26.257] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hiddenTabs was corrected from null to its default, []. 
+[31Jul2025 00:42:26.257] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimensionsBlacklist was corrected from null to its default, [-11]. 
+[31Jul2025 00:42:26.258] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disableLootManagerReloading was corrected from null to its default, false. 
+[31Jul2025 00:42:26.424] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[31Jul2025 00:42:26.425] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[31Jul2025 00:42:26.425] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[31Jul2025 00:42:26.426] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[31Jul2025 00:42:26.453] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[31Jul2025 00:42:26.463] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[31Jul2025 00:42:26.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[31Jul2025 00:42:27.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[31Jul2025 00:42:27.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[31Jul2025 00:42:27.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[31Jul2025 00:42:28.518] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[31Jul2025 00:42:29.377] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/second-repo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23157!/assets/.mcassetsroot' uses unexpected schema
+[31Jul2025 00:42:29.377] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/second-repo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23157!/data/.mcassetsroot' uses unexpected schema
+[31Jul2025 00:42:30.616] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:villager_plantable_seeds as it is missing following references: veggiesdelight:garlic_seeds (from veggiesdelight-1.7.4.jar)
+[31Jul2025 00:42:31.191] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/wild_sweet_potatoes
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.200] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/bellpepper
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.206] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe vintagedelight:cooking/shakshouka
+com.google.gson.JsonSyntaxException: Unknown item 'vintagedelight:ghost_pepper'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.readIngredients(CookingPotRecipe.java:199) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.fromJson(CookingPotRecipe.java:176) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.m_6729_(CookingPotRecipe.java:168) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.209] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/wild_bellpepper
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.224] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe culturaldelight:avocado_toast
+com.google.gson.JsonSyntaxException: Unknown item 'culturaldelights:avocado_toast'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.231] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe culturaldelight:eggplant_burger
+com.google.gson.JsonSyntaxException: Unknown item 'culturaldelights:eggplant_burger'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.246] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/wild_cauliflowers
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.257] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/cauliflower
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.263] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ender_hammer
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ender_hammer'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.265] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/garlic
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.286] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:vintagedelight/vd_pad_thai
+com.google.gson.JsonSyntaxException: Unknown item 'vintagedelight:nut_mash_bottle'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.readIngredients(CookingPotRecipe.java:199) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.fromJson(CookingPotRecipe.java:176) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.m_6729_(CookingPotRecipe.java:168) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.292] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/sweet_potato
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.322] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe corndelight:chicken_fajitas_wrap
+com.google.gson.JsonSyntaxException: Unknown item 'corn_delight:tortilla'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.326] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe vintagedelight:uncooked_mhadjeb
+com.google.gson.JsonSyntaxException: Unknown item 'vintagedelight:ghost_pepper'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.345] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moredelight:cooking/fish_and_chips
+com.google.gson.JsonSyntaxException: Unknown item 'moredelight:diced_potatoes'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.readIngredients(CookingPotRecipe.java:199) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.fromJson(CookingPotRecipe.java:176) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at vectorwing.farmersdelight.common.crafting.CookingPotRecipe$Serializer.m_6729_(CookingPotRecipe.java:168) ~[FarmersDelight-1.20.1-1.2.8.jar%23137!/:1.20.1-1.2.8]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.357] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe vintagedelight:vegan_pizza
+com.google.gson.JsonSyntaxException: Unknown item 'vintagedelight:ghost_pepper'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.365] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moredelight:garlic_bread
+com.google.gson.JsonSyntaxException: Unknown item 'moredelight:toast'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23162!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.376] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/second-repo/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
+[31Jul2025 00:42:31.377] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe veggiesdelight:botany/wild_garlic
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23157!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[31Jul2025 00:42:31.386] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[31Jul2025 00:42:31.466] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement legendary_monsters:defeat_ambusher: Expected item to be an item, was unknown string 'legendary_monsters:ancient_dripstone_shard'
+[31Jul2025 00:42:31.487] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1695 advancements
+[31Jul2025 00:42:31.502] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id allthefood:gelatin_from_pig - error: Not a JSON object: null
+[31Jul2025 00:42:31.503] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id allthefood:gelatin_from_piglin - error: Not a JSON object: null
+[31Jul2025 00:42:31.503] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id allthefood:gelatin_from_piglin_brute - error: Not a JSON object: null
+[31Jul2025 00:42:31.509] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: c:mountain
+[31Jul2025 00:42:32.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[31Jul2025 00:42:32.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[31Jul2025 00:42:32.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[31Jul2025 00:42:32.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[31Jul2025 00:42:32.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[31Jul2025 00:42:32.408] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[31Jul2025 00:42:32.483] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[31Jul2025 00:42:32.483] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[31Jul2025 00:42:32.483] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[31Jul2025 00:42:32.484] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[31Jul2025 00:42:32.498] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[31Jul2025 00:42:32.498] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[31Jul2025 00:42:32.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[31Jul2025 00:42:32.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[31Jul2025 00:42:32.500] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/sophisticatedbackpacks-server.toml is not correct. Correcting
+[31Jul2025 00:42:32.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
+[31Jul2025 00:42:32.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
+[31Jul2025 00:42:32.502] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
+[31Jul2025 00:42:32.502] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
+[31Jul2025 00:42:32.502] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[31Jul2025 00:42:32.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[31Jul2025 00:42:32.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[31Jul2025 00:42:32.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[31Jul2025 00:42:32.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
+[31Jul2025 00:42:32.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[31Jul2025 00:42:32.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[31Jul2025 00:42:32.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
+[31Jul2025 00:42:32.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[31Jul2025 00:42:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
+[31Jul2025 00:42:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
+[31Jul2025 00:42:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[31Jul2025 00:42:32.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
+[31Jul2025 00:42:32.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
+[31Jul2025 00:42:32.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[31Jul2025 00:42:32.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[31Jul2025 00:42:32.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[31Jul2025 00:42:32.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[31Jul2025 00:42:32.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[31Jul2025 00:42:32.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[31Jul2025 00:42:32.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[31Jul2025 00:42:32.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[31Jul2025 00:42:32.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
+[31Jul2025 00:42:32.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
+[31Jul2025 00:42:32.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
+[31Jul2025 00:42:32.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
+[31Jul2025 00:42:32.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
+[31Jul2025 00:42:32.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[31Jul2025 00:42:32.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
+[31Jul2025 00:42:32.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[31Jul2025 00:42:32.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
+[31Jul2025 00:42:32.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
+[31Jul2025 00:42:32.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.numberOfSlots was corrected from null to its default, 12. 
+[31Jul2025 00:42:32.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.slotsInRow was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.alchemyUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.alchemyUpgrade.filterSlots was corrected from null to its default, 4. 
+[31Jul2025 00:42:32.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedAlchemyUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedAlchemyUpgrade.filterSlots was corrected from null to its default, 8. 
+[31Jul2025 00:42:32.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
+[31Jul2025 00:42:32.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
+[31Jul2025 00:42:32.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
+[31Jul2025 00:42:32.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
+[31Jul2025 00:42:32.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
+[31Jul2025 00:42:32.541] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
+[31Jul2025 00:42:32.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
+[31Jul2025 00:42:32.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
+[31Jul2025 00:42:32.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
+[31Jul2025 00:42:32.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
+[31Jul2025 00:42:32.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
+[31Jul2025 00:42:32.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31Jul2025 00:42:32.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[31Jul2025 00:42:32.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[31Jul2025 00:42:32.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
+[31Jul2025 00:42:32.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
+[31Jul2025 00:42:32.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [furnace_upgrades|1, jukebox_upgrades|1, stack_upgrades|3]. 
+[31Jul2025 00:42:32.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
+[31Jul2025 00:42:32.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
+[31Jul2025 00:42:32.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
+[31Jul2025 00:42:32.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
+[31Jul2025 00:42:32.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
+[31Jul2025 00:42:32.607] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[31Jul2025 00:42:35.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Jul2025 00:42:37.093] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 00:42:37.115] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 00:42:37.120] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 00:42:37.132] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 00:42:37.480] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 00:42:38.084] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 00:42:38.549] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 00:42:38.976] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[31Jul2025 00:42:39.477] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[31Jul2025 00:42:39.901] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4425 ms
+[31Jul2025 00:42:39.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.405s)! For help, type "help"
+[31Jul2025 00:42:39.930] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[31Jul2025 00:42:39.933] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[31Jul2025 00:46:09.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SolAereus[/127.19.204.241:55139] logged in with entity id 142 at (-7.5, 75.0, 0.5)
+[31Jul2025 00:46:09.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SolAereus joined the game
+[31Jul2025 00:46:10.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SolAereus has made the advancement [Mobs of Mythology]
+[31Jul2025 00:49:24.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made SolAereus a server operator
+[31Jul2025 00:49:33.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SolAereus: Set own game mode to Creative Mode]
+[31Jul2025 00:49:35.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SolAereus: Set own game mode to Survival Mode]
+[31Jul2025 00:50:18.952] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PaulMz[/127.129.84.215:54753] logged in with entity id 765 at (8.5, 78.0, -3.5)
+[31Jul2025 00:50:18.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz joined the game
+[31Jul2025 00:50:19.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz has made the advancement [Mobs of Mythology]
+[31Jul2025 00:51:04.669] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=80, z=2}
+[31Jul2025 00:51:24.313] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=79, z=2}
+[31Jul2025 00:51:37.472] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=79, z=2}
+[31Jul2025 00:51:37.520] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=78, z=2}
+[31Jul2025 00:51:37.908] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=77, z=0}
+[31Jul2025 00:51:37.959] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=77, z=1}
+[31Jul2025 00:51:40.217] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=78, z=2}
+[31Jul2025 00:51:50.998] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaulMz lost connection: Disconnected
+[31Jul2025 00:51:50.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz left the game
+[31Jul2025 00:51:56.655] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PaulMz[/127.129.84.215:58211] logged in with entity id 962 at (11.865187361828237, 78.0, 3.8491399706964335)
+[31Jul2025 00:51:56.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz joined the game

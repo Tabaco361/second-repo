@@ -1,0 +1,75 @@
+{
+  "mobs_of_mythology:mobs_of_mythology": {
+    "criteria": {
+      "tick": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2025-07-31 00:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "mortius_weaponry:dagger": {
+    "criteria": {
+      "dagger": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "mortius_weaponry:polearm_category": {
+    "criteria": {
+      "polearm_category": "2025-07-31 00:46:09 +0000"
+    },
+    "done": true
+  },
+  "mortius_weaponry:mortius_weaponry": {
+    "criteria": {
+      "mortius_weaponry": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "mortius_weaponry:misc": {
+    "criteria": {
+      "misc": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "mortius_weaponry:bladed": {
+    "criteria": {
+      "bladed": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2025-07-31 00:46:10 +0000"
+    },
+    "done": false
+  },
+  "legendary_monsters:legendary_monsters_root": {
+    "criteria": {
+      "custom_test_name": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "mortius_weaponry:blunt": {
+    "criteria": {
+      "blunt": "2025-07-31 00:46:10 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
