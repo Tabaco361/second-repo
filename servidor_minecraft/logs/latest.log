@@ -1158,3 +1158,5 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanyp
 [31Jul2025 01:17:16.600] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.216.38.203:46443] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
 [31Jul2025 01:21:46.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz has made the advancement [Diamonds!]
 [31Jul2025 01:21:52.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz has made the advancement [Crops of the Wild]
+[31Jul2025 01:23:05.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz has made the advancement [Acquire Hardware]
+[31Jul2025 01:25:02.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz has made the advancement [Suit Up]
