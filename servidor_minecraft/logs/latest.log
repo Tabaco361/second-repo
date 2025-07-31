@@ -1105,3 +1105,33 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanyp
 [31Jul2025 00:51:50.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz left the game
 [31Jul2025 00:51:56.655] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PaulMz[/127.129.84.215:58211] logged in with entity id 962 at (11.865187361828237, 78.0, 3.8491399706964335)
 [31Jul2025 00:51:56.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz joined the game
+[31Jul2025 00:52:32.217] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=77, z=3}
+[31Jul2025 00:52:32.267] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=77, z=3}
+[31Jul2025 00:52:52.060] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=77, z=6}
+[31Jul2025 00:52:52.616] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=77, z=6}
+[31Jul2025 00:53:23.911] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=17, y=77, z=7} BlockPos{x=11, y=76, z=4}
+[31Jul2025 00:53:30.614] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=17, y=77, z=7} BlockPos{x=11, y=78, z=2}
+[31Jul2025 00:53:30.715] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=17, y=77, z=7} BlockPos{x=11, y=77, z=1}
+[31Jul2025 00:53:41.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SolAereus: Set the time to 1000]
+[31Jul2025 00:54:08.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SolAereus: Set own game mode to Creative Mode]
+[31Jul2025 00:54:25.453] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7d42d154[id=<null>,name=mailen,properties={},legacy=false] (/127.216.38.203:41309) lost connection: Disconnected
+[31Jul2025 00:54:48.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz has made the advancement [Stone Age]
+[31Jul2025 00:55:26.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaulMz has made the advancement [Getting an Upgrade]
+[31Jul2025 00:57:35.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mailen[/127.216.38.203:40343] logged in with entity id 2496 at (1.5, 77.0, -4.5)
+[31Jul2025 00:57:35.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mailen joined the game
+[31Jul2025 00:57:35.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mailen has made the advancement [Mobs of Mythology]
+[31Jul2025 00:58:05.849] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mailen lost connection: Timed out
+[31Jul2025 00:58:05.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mailen left the game
+[31Jul2025 00:58:05.899] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[31Jul2025 00:58:57.103] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mailen[/127.216.38.203:47881] logged in with entity id 2891 at (1.5, 77.0, -4.5)
+[31Jul2025 00:58:57.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mailen joined the game
+[31Jul2025 00:59:27.203] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mailen lost connection: Timed out
+[31Jul2025 00:59:27.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mailen left the game
+[31Jul2025 00:59:57.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mailen[/127.216.38.203:36541] logged in with entity id 3130 at (1.5, 77.0, -4.5)
+[31Jul2025 00:59:57.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mailen joined the game
+[31Jul2025 00:59:58.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SolAereus: Teleported SolAereus to PaulMz]
+[31Jul2025 01:00:10.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SolAereus: Set own game mode to Survival Mode]
+[31Jul2025 01:00:27.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mailen lost connection: Timed out
+[31Jul2025 01:00:27.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mailen left the game
+[31Jul2025 01:01:15.899] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5b96b893[id=<null>,name=mailen,properties={},legacy=false] (/127.216.38.203:56381) lost connection: Disconnected
+[31Jul2025 01:02:02.347] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1f9fb1c7[id=<null>,name=mailen,properties={},legacy=false] (/127.216.38.203:57851) lost connection: Disconnected
